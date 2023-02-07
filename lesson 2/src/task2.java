@@ -25,7 +25,7 @@ public class task2 {
         System.out.println(res);
 
         Logger logger = Logger.getLogger(task2.class.getName());
-        FileHandler fh = new FileHandler("log.txt");
+        FileHandler fh = new FileHandler("log2.2.txt");
         logger.addHandler(fh);
         SimpleFormatter sFormat = new SimpleFormatter();
         fh.setFormatter(sFormat);
